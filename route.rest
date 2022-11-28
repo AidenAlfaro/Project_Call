@@ -1,0 +1,15 @@
+GET http://localhost:3000/llamadas
+
+###
+GET http://localhost:3000/llamadas/6382f28bbc5a523ba284f4b4
+
+###
+POST http://localhost:3000/llamadas/
+Content-Type: application/json
+
+{
+    "numero_telefono": "+50662013047"
+}
+
+###
+DELETE http://localhost:3000/llamadas/6384fa713716e03c9ca2bed0
